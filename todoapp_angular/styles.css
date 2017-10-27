@@ -1,0 +1,38 @@
+
+.td_space{
+    text-decoration: dotted;
+    color: #007900;
+    text-align: center;
+}
+
+td {
+   horiz-align: center;
+}
+
+.active_td{
+    color:purple;
+    text-decoration: blink;
+    text-align: center;
+}
+
+.main_div{
+    /*align-self: center;*/
+    border-radius: 30%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.del_td{
+    text-decoration: line-through;
+    color: #cc0b1b;
+}
+.heading{
+
+    background-color:#c8cac9 ;
+    border-radius: 4px;
+}
+
+.sub_heading{
+    background-color: #c8cac9;
+    border-radius: 4px;
+}
