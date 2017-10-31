@@ -11,26 +11,28 @@
 </head>
 <body>
 
-<script src="interface.js"></script>
-<script src="userinput.js"></script>
+
 <div class="main_div">
     <h1 align="center" class="heading">TODO APP</h1>
-<div id="input" align="center">
-<input type="text" style="border-radius:4px; border: 1px solid #cacaca" id="inp"  placeholder="Title">
-<button  class="btn btn-sm btn-default" onclick="addtodo()" >add</button>
-</div>
+    <div id="input" align="center">
+        <input type="text" style="border-radius:4px; border: 1px solid #cacaca" id="newTodo"  placeholder="Title">
+        <button id="addTodo" class="btn btn-sm btn-default" onclick="addbuttonfunc()"  >add</button>
+    </div>
 
     <div id="all_todo" align="center"><h4 class="sub_heading">LIST OF ACTIVE TODO</h4>
-<div id="list_active_todo" ></div>
-</div>
+        <div id="todo_active_list" ></div>
+    </div>
 
     <div id="completedtodos"  align="center"><h4 class="sub_heading">COMPLETED TODOS</h4>
-    <div id="list_complete_todo" >LIST OF COMPLETED TODO</div>
-</div>
+        <div id="todo_complete_list" >LIST OF COMPLETED TODO</div>
+    </div>
 
     <div id="deletedtodos" align="center"><h4 class="sub_heading">DELETED TODOS</h4>
-<div id="list_delete_todo">LIST OF DELETED TODO</div>
+        <div id="todo_delete_list">LIST OF DELETED TODO</div>
+    </div>
 </div>
-</div>
+
+<script src="script.js"></script>
+<script src="userinput.js"></script>
 </body>
 </html>
